@@ -1,0 +1,157 @@
+31-Mar-2018 02:32:05.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.6
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 09:34:35 UTC
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.6.0
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\LICT18\apache-tomcat-9.0.6
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\LICT18\apache-tomcat-9.0.6
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\LICT18\apache-tomcat-9.0.6\conf\logging.properties
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-IVGRA1C
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\LICT18\apache-tomcat-9.0.6
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\LICT18\apache-tomcat-9.0.6
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\LICT18\apache-tomcat-9.0.6\temp
+31-Mar-2018 02:32:05.920 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Bappy's Pc\AppData\Local\Microsoft\WindowsApps;;.]
+31-Mar-2018 02:32:06.735 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+31-Mar-2018 02:32:07.460 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Mar-2018 02:32:07.567 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2018 02:32:07.567 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Mar-2018 02:32:07.567 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3659 ms
+31-Mar-2018 02:32:07.752 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2018 02:32:07.752 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.6
+31-Mar-2018 02:32:07.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\BloodForLifeCommunity.xml]
+31-Mar-2018 02:32:07.861 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/BloodForLifeCommunity] in deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\BloodForLifeCommunity.xml] has been ignored
+31-Mar-2018 02:32:09.583 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2018 02:32:09.832 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\BloodForLifeCommunity.xml] has finished in [2,034] ms
+31-Mar-2018 02:32:09.832 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\EmpMng.xml]
+31-Mar-2018 02:32:09.832 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/EmpMng] in deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\EmpMng.xml] has been ignored
+31-Mar-2018 02:32:10.372 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2018 02:32:10.372 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\EmpMng.xml] has finished in [540] ms
+31-Mar-2018 02:32:10.372 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\LoginApp1.xml]
+31-Mar-2018 02:32:10.372 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/LoginApp1] in deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\LoginApp1.xml] has been ignored
+31-Mar-2018 02:32:10.450 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\LoginApp1.xml] has finished in [78] ms
+31-Mar-2018 02:32:10.450 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\WebApplication1.xml]
+31-Mar-2018 02:32:10.466 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+31-Mar-2018 02:32:10.518 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\WebApplication1.xml] has finished in [68] ms
+31-Mar-2018 02:32:10.518 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\docs]
+31-Mar-2018 02:32:10.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\docs] has finished in [78] ms
+31-Mar-2018 02:32:10.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\examples]
+31-Mar-2018 02:32:12.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\examples] has finished in [1,849] ms
+31-Mar-2018 02:32:12.449 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\host-manager]
+31-Mar-2018 02:32:12.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\host-manager] has finished in [103] ms
+31-Mar-2018 02:32:12.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\manager]
+31-Mar-2018 02:32:12.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\manager] has finished in [47] ms
+31-Mar-2018 02:32:12.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\ROOT]
+31-Mar-2018 02:32:12.662 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\ROOT] has finished in [63] ms
+31-Mar-2018 02:32:12.677 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+31-Mar-2018 02:32:12.691 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2018 02:32:12.695 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5120 ms
+31-Mar-2018 02:32:17.859 INFO [http-nio-9090-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:32:18.303 INFO [http-nio-9090-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:36:02.567 INFO [http-nio-9090-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:36:02.614 WARNING [http-nio-9090-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodForLifeCommunity] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2018 02:36:02.614 WARNING [http-nio-9090-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BloodForLifeCommunity] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+31-Mar-2018 02:36:02.864 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:972)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Mar-2018 02:36:03.005 INFO [55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:36:53.115 INFO [http-nio-9090-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:36:53.428 INFO [http-nio-9090-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:37:15.206 INFO [http-nio-9090-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:37:15.409 INFO [http-nio-9090-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:37:26.691 INFO [http-nio-9090-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:37:26.941 INFO [http-nio-9090-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:37:48.769 INFO [http-nio-9090-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:37:49.238 INFO [http-nio-9090-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:37:49.347 INFO [http-nio-9090-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:37:49.723 INFO [http-nio-9090-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:38:00.542 INFO [http-nio-9090-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:38:00.722 INFO [http-nio-9090-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:38:11.332 INFO [http-nio-9090-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:38:11.613 INFO [http-nio-9090-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:38:27.740 INFO [http-nio-9090-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:38:27.974 INFO [http-nio-9090-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:38:37.630 INFO [http-nio-9090-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:38:37.849 INFO [http-nio-9090-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:38:45.519 INFO [http-nio-9090-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:38:45.769 INFO [http-nio-9090-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:38:56.348 INFO [http-nio-9090-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:38:56.520 INFO [http-nio-9090-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:39:09.270 INFO [http-nio-9090-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:39:09.426 INFO [http-nio-9090-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:40:16.880 INFO [http-nio-9090-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:40:16.896 WARNING [http-nio-9090-exec-33] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodForLifeCommunity] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2018 02:40:16.896 WARNING [http-nio-9090-exec-33] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BloodForLifeCommunity] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+31-Mar-2018 02:40:17.052 INFO [76] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:972)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Mar-2018 02:40:17.083 INFO [http-nio-9090-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:40:19.290 INFO [http-nio-9090-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+31-Mar-2018 02:40:19.290 WARNING [http-nio-9090-exec-36] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodForLifeCommunity] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2018 02:40:19.290 WARNING [http-nio-9090-exec-36] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BloodForLifeCommunity] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+31-Mar-2018 02:40:19.503 INFO [http-nio-9090-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+31-Mar-2018 02:40:22.192 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:972)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+31-Mar-2018 02:41:37.722 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+31-Mar-2018 02:41:37.722 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+31-Mar-2018 02:41:37.910 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2018 02:41:38.051 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2018 02:41:38.051 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodForLifeCommunity] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2018 02:41:38.051 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BloodForLifeCommunity] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+31-Mar-2018 02:41:38.082 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+31-Mar-2018 02:41:38.082 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+31-Mar-2018 02:41:38.082 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+31-Mar-2018 02:41:38.097 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

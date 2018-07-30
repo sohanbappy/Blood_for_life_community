@@ -1,0 +1,516 @@
+29-Mar-2018 00:06:18.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.6
+29-Mar-2018 00:06:18.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 09:34:35 UTC
+29-Mar-2018 00:06:18.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.6.0
+29-Mar-2018 00:06:18.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+29-Mar-2018 00:06:18.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Mar-2018 00:06:18.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Mar-2018 00:06:18.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+29-Mar-2018 00:06:18.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+29-Mar-2018 00:06:18.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Mar-2018 00:06:18.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\LICT18\apache-tomcat-9.0.6
+29-Mar-2018 00:06:18.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\LICT18\apache-tomcat-9.0.6
+29-Mar-2018 00:06:18.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\LICT18\apache-tomcat-9.0.6\conf\logging.properties
+29-Mar-2018 00:06:18.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2018 00:06:18.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-IVGRA1C
+29-Mar-2018 00:06:18.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Mar-2018 00:06:18.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Mar-2018 00:06:18.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+29-Mar-2018 00:06:18.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\LICT18\apache-tomcat-9.0.6
+29-Mar-2018 00:06:18.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\LICT18\apache-tomcat-9.0.6
+29-Mar-2018 00:06:18.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\LICT18\apache-tomcat-9.0.6\temp
+29-Mar-2018 00:06:18.803 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Bappy's Pc\AppData\Local\Microsoft\WindowsApps;;.]
+29-Mar-2018 00:06:18.977 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+29-Mar-2018 00:06:19.091 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Mar-2018 00:06:19.097 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2018 00:06:19.099 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-Mar-2018 00:06:19.100 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 772 ms
+29-Mar-2018 00:06:19.131 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2018 00:06:19.131 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.6
+29-Mar-2018 00:06:19.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\BloodForLifeCommunity.xml]
+29-Mar-2018 00:06:19.169 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/BloodForLifeCommunity] in deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\BloodForLifeCommunity.xml] has been ignored
+29-Mar-2018 00:06:20.158 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 00:06:20.276 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\BloodForLifeCommunity.xml] has finished in [1,127] ms
+29-Mar-2018 00:06:20.276 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\EmpMng.xml]
+29-Mar-2018 00:06:20.277 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/EmpMng] in deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\EmpMng.xml] has been ignored
+29-Mar-2018 00:06:20.526 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2018 00:06:20.528 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\EmpMng.xml] has finished in [252] ms
+29-Mar-2018 00:06:20.528 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\WebApplication1.xml]
+29-Mar-2018 00:06:20.529 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+29-Mar-2018 00:06:20.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\WebApplication1.xml] has finished in [42] ms
+29-Mar-2018 00:06:20.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\docs]
+29-Mar-2018 00:06:20.600 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\docs] has finished in [29] ms
+29-Mar-2018 00:06:20.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\examples]
+29-Mar-2018 00:06:21.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\examples] has finished in [493] ms
+29-Mar-2018 00:06:21.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\host-manager]
+29-Mar-2018 00:06:21.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\host-manager] has finished in [47] ms
+29-Mar-2018 00:06:21.143 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\manager]
+29-Mar-2018 00:06:21.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\manager] has finished in [69] ms
+29-Mar-2018 00:06:21.212 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\ROOT]
+29-Mar-2018 00:06:21.285 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\ROOT] has finished in [73] ms
+29-Mar-2018 00:06:21.289 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+29-Mar-2018 00:06:21.304 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2018 00:06:21.309 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2208 ms
+29-Mar-2018 00:06:25.068 INFO [http-nio-9090-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\LoginApp1.xml]
+29-Mar-2018 00:06:25.069 WARNING [http-nio-9090-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/LoginApp1] in deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\LoginApp1.xml] has been ignored
+29-Mar-2018 00:06:25.131 INFO [http-nio-9090-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\LoginApp1.xml] has finished in [64] ms
+29-Mar-2018 00:06:25.141 INFO [http-nio-9090-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/LoginApp1]] after start() had already been called. The second call will be ignored.
+29-Mar-2018 00:09:11.581 INFO [http-nio-9090-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:09:11.959 INFO [http-nio-9090-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:14:00.673 INFO [http-nio-9090-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:14:00.979 INFO [http-nio-9090-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:14:03.993 INFO [http-nio-9090-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:14:04.228 INFO [http-nio-9090-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:14:42.178 INFO [http-nio-9090-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:14:42.447 INFO [http-nio-9090-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:14:49.687 INFO [http-nio-9090-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:14:49.868 INFO [http-nio-9090-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:18:21.570 INFO [http-nio-9090-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:18:22.329 INFO [http-nio-9090-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:18:23.390 INFO [http-nio-9090-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:18:24.132 INFO [http-nio-9090-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:18:57.616 INFO [http-nio-9090-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:18:57.890 INFO [http-nio-9090-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:19:11.145 INFO [http-nio-9090-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:19:11.374 INFO [http-nio-9090-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:19:30.754 INFO [http-nio-9090-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:19:30.930 INFO [http-nio-9090-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:19:51.253 INFO [http-nio-9090-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:19:51.486 INFO [http-nio-9090-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:20:14.312 INFO [http-nio-9090-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:20:14.470 INFO [http-nio-9090-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:21:06.659 INFO [http-nio-9090-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:21:06.861 INFO [http-nio-9090-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:22:17.483 INFO [http-nio-9090-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:22:17.680 INFO [http-nio-9090-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:22:45.586 INFO [http-nio-9090-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:22:45.832 INFO [http-nio-9090-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:23:39.399 INFO [http-nio-9090-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:23:39.665 INFO [http-nio-9090-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:23:44.204 INFO [http-nio-9090-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:23:44.367 INFO [http-nio-9090-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:24:02.132 INFO [http-nio-9090-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:24:02.404 INFO [http-nio-9090-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:26:12.029 INFO [http-nio-9090-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:26:12.280 INFO [http-nio-9090-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:27:31.827 INFO [http-nio-9090-exec-59] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:27:32.008 INFO [http-nio-9090-exec-59] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:27:36.588 INFO [http-nio-9090-exec-79] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:27:36.742 INFO [http-nio-9090-exec-79] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:28:13.443 INFO [http-nio-9090-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:28:13.641 INFO [http-nio-9090-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:28:32.007 INFO [http-nio-9090-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:28:32.201 INFO [http-nio-9090-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:29:01.435 INFO [http-nio-9090-exec-82] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:29:01.602 INFO [http-nio-9090-exec-82] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:29:16.456 INFO [http-nio-9090-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:29:16.692 INFO [http-nio-9090-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:29:41.968 INFO [http-nio-9090-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:29:42.247 INFO [http-nio-9090-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:29:42.607 INFO [http-nio-9090-exec-81] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:29:42.774 INFO [http-nio-9090-exec-81] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:31:16.565 INFO [http-nio-9090-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:31:16.740 INFO [http-nio-9090-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:31:26.529 INFO [http-nio-9090-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:31:26.687 INFO [http-nio-9090-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:31:30.370 INFO [http-nio-9090-exec-88] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:31:30.535 INFO [http-nio-9090-exec-88] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:31:51.163 INFO [http-nio-9090-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:31:51.313 INFO [http-nio-9090-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:32:19.876 INFO [http-nio-9090-exec-73] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:32:20.032 INFO [http-nio-9090-exec-73] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:32:32.299 INFO [http-nio-9090-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:32:32.548 INFO [http-nio-9090-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:32:39.416 INFO [http-nio-9090-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:32:39.580 INFO [http-nio-9090-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:32:42.947 INFO [http-nio-9090-exec-93] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:32:43.114 INFO [http-nio-9090-exec-93] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:32:57.079 INFO [http-nio-9090-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:32:57.257 INFO [http-nio-9090-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:33:03.291 INFO [http-nio-9090-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:33:03.448 INFO [http-nio-9090-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:34:00.853 INFO [http-nio-9090-exec-95] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:34:01.012 INFO [http-nio-9090-exec-95] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:34:16.848 INFO [http-nio-9090-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:34:17.019 INFO [http-nio-9090-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:35:34.580 INFO [http-nio-9090-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:35:34.732 INFO [http-nio-9090-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:37:39.098 INFO [http-nio-9090-exec-100] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:37:39.289 INFO [http-nio-9090-exec-100] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:38:14.344 INFO [http-nio-9090-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:38:14.525 INFO [http-nio-9090-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:38:49.956 INFO [http-nio-9090-exec-100] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:38:50.125 INFO [http-nio-9090-exec-100] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:44:28.878 INFO [http-nio-9090-exec-105] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:44:30.401 INFO [http-nio-9090-exec-105] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:45:38.853 INFO [http-nio-9090-exec-110] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:45:39.056 INFO [http-nio-9090-exec-110] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:48:15.150 INFO [http-nio-9090-exec-117] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:48:15.369 INFO [http-nio-9090-exec-117] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:48:22.478 INFO [http-nio-9090-exec-109] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:48:22.792 INFO [http-nio-9090-exec-109] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:48:22.823 INFO [http-nio-9090-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:48:23.095 INFO [http-nio-9090-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:49:46.264 INFO [http-nio-9090-exec-117] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:49:46.511 INFO [http-nio-9090-exec-117] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:50:13.038 INFO [http-nio-9090-exec-119] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:50:13.262 INFO [http-nio-9090-exec-119] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:50:26.099 INFO [http-nio-9090-exec-122] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:50:26.304 INFO [http-nio-9090-exec-122] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:50:40.241 INFO [http-nio-9090-exec-109] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:50:40.465 INFO [http-nio-9090-exec-109] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:53:48.159 INFO [http-nio-9090-exec-125] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:53:48.555 INFO [http-nio-9090-exec-125] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:53:54.109 INFO [http-nio-9090-exec-121] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:53:54.395 INFO [http-nio-9090-exec-121] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:54:14.934 INFO [http-nio-9090-exec-129] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:54:15.154 INFO [http-nio-9090-exec-129] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:54:21.730 INFO [http-nio-9090-exec-126] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:54:22.253 INFO [http-nio-9090-exec-126] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:54:36.219 INFO [http-nio-9090-exec-131] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:54:36.740 INFO [http-nio-9090-exec-131] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:54:48.973 INFO [http-nio-9090-exec-128] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:54:49.391 INFO [http-nio-9090-exec-128] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:55:02.063 INFO [http-nio-9090-exec-132] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:55:02.274 INFO [http-nio-9090-exec-132] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:55:24.133 INFO [http-nio-9090-exec-124] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:55:24.241 INFO [http-nio-9090-exec-124] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:55:38.984 INFO [http-nio-9090-exec-118] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:55:39.138 INFO [http-nio-9090-exec-118] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:56:13.307 INFO [http-nio-9090-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:56:16.157 INFO [http-nio-9090-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:56:24.233 INFO [http-nio-9090-exec-124] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:56:24.330 INFO [http-nio-9090-exec-124] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:56:31.341 INFO [http-nio-9090-exec-132] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:56:31.413 INFO [http-nio-9090-exec-132] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:56:39.368 INFO [http-nio-9090-exec-139] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:56:39.448 INFO [http-nio-9090-exec-139] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 00:56:54.356 INFO [http-nio-9090-exec-126] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 00:56:54.515 INFO [http-nio-9090-exec-126] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:00:56.928 INFO [http-nio-9090-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:00:57.122 INFO [http-nio-9090-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:03:49.244 INFO [http-nio-9090-exec-150] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:03:49.983 INFO [http-nio-9090-exec-150] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:04:05.052 INFO [http-nio-9090-exec-144] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:04:05.158 INFO [http-nio-9090-exec-144] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:05:38.733 INFO [http-nio-9090-exec-146] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:05:38.886 INFO [http-nio-9090-exec-146] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:05:39.950 INFO [http-nio-9090-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:05:40.139 INFO [http-nio-9090-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:06:11.474 INFO [http-nio-9090-exec-147] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:06:11.700 INFO [http-nio-9090-exec-147] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:06:37.614 INFO [http-nio-9090-exec-148] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:06:38.035 INFO [http-nio-9090-exec-148] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:07:32.934 INFO [http-nio-9090-exec-150] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:07:33.233 INFO [http-nio-9090-exec-150] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:08:15.216 INFO [http-nio-9090-exec-147] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:08:15.453 INFO [http-nio-9090-exec-147] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:09:58.242 INFO [http-nio-9090-exec-152] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:09:58.535 INFO [http-nio-9090-exec-152] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:10:38.558 INFO [http-nio-9090-exec-158] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:10:39.062 INFO [http-nio-9090-exec-158] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:11:35.945 INFO [http-nio-9090-exec-154] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:11:36.150 INFO [http-nio-9090-exec-154] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:11:49.691 INFO [http-nio-9090-exec-148] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:11:49.836 INFO [http-nio-9090-exec-148] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:12:01.598 INFO [http-nio-9090-exec-163] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:12:01.721 INFO [http-nio-9090-exec-163] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:12:41.118 INFO [http-nio-9090-exec-148] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:12:41.300 INFO [http-nio-9090-exec-148] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:13:00.195 INFO [http-nio-9090-exec-165] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:13:00.305 INFO [http-nio-9090-exec-165] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:15:27.332 INFO [http-nio-9090-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:15:27.504 INFO [http-nio-9090-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:16:39.149 INFO [http-nio-9090-exec-171] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:16:39.364 INFO [http-nio-9090-exec-171] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:17:38.824 INFO [http-nio-9090-exec-170] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:17:39.077 INFO [http-nio-9090-exec-170] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:17:39.687 INFO [http-nio-9090-exec-159] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:17:39.763 INFO [http-nio-9090-exec-159] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:17:43.121 INFO [http-nio-9090-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:17:43.194 INFO [http-nio-9090-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:17:53.066 INFO [http-nio-9090-exec-170] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:17:53.142 INFO [http-nio-9090-exec-170] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:18:03.599 INFO [http-nio-9090-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:18:03.671 INFO [http-nio-9090-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:18:23.319 INFO [http-nio-9090-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:18:23.467 INFO [http-nio-9090-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:18:35.767 INFO [http-nio-9090-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:18:35.840 INFO [http-nio-9090-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:18:42.437 INFO [http-nio-9090-exec-177] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:18:42.640 INFO [http-nio-9090-exec-177] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:18:48.808 INFO [http-nio-9090-exec-178] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:18:48.879 INFO [http-nio-9090-exec-178] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:19:22.123 INFO [http-nio-9090-exec-163] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:19:22.261 INFO [http-nio-9090-exec-163] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:19:26.969 INFO [http-nio-9090-exec-181] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:19:27.042 INFO [http-nio-9090-exec-181] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:19:32.225 INFO [http-nio-9090-exec-182] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:19:32.300 INFO [http-nio-9090-exec-182] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:19:39.184 INFO [http-nio-9090-exec-163] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:19:39.257 INFO [http-nio-9090-exec-163] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:20:55.034 INFO [http-nio-9090-exec-182] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:20:55.180 INFO [http-nio-9090-exec-182] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:21:48.579 INFO [http-nio-9090-exec-183] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:21:48.733 INFO [http-nio-9090-exec-183] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:22:17.311 INFO [http-nio-9090-exec-185] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:22:17.376 INFO [http-nio-9090-exec-185] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:22:31.803 INFO [http-nio-9090-exec-167] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:22:31.952 INFO [http-nio-9090-exec-167] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:23:00.807 INFO [http-nio-9090-exec-163] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:23:00.950 INFO [http-nio-9090-exec-163] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:24:02.261 INFO [http-nio-9090-exec-189] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:24:02.399 INFO [http-nio-9090-exec-189] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:25:11.370 INFO [http-nio-9090-exec-186] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:25:11.520 INFO [http-nio-9090-exec-186] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:25:38.957 INFO [http-nio-9090-exec-193] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:25:40.322 INFO [http-nio-9090-exec-193] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:25:40.712 INFO [http-nio-9090-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:25:40.812 INFO [http-nio-9090-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:25:46.149 INFO [http-nio-9090-exec-195] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:25:46.292 INFO [http-nio-9090-exec-195] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:25:46.323 INFO [http-nio-9090-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:25:46.394 INFO [http-nio-9090-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:26:42.178 INFO [http-nio-9090-exec-182] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:26:42.353 INFO [http-nio-9090-exec-182] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:27:19.353 INFO [http-nio-9090-exec-195] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:27:19.490 INFO [http-nio-9090-exec-195] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:28:07.342 INFO [http-nio-9090-exec-182] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:28:07.482 INFO [http-nio-9090-exec-182] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:28:58.251 INFO [http-nio-9090-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:28:58.393 INFO [http-nio-9090-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:33:02.060 INFO [http-nio-9090-exec-202] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:33:02.222 INFO [http-nio-9090-exec-202] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:34:06.804 INFO [http-nio-9090-exec-203] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:34:06.949 INFO [http-nio-9090-exec-203] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:35:29.062 INFO [http-nio-9090-exec-205] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:35:29.203 INFO [http-nio-9090-exec-205] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:35:59.172 INFO [http-nio-9090-exec-202] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:35:59.334 INFO [http-nio-9090-exec-202] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:36:08.489 INFO [http-nio-9090-exec-205] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:36:08.560 INFO [http-nio-9090-exec-205] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:36:12.796 INFO [http-nio-9090-exec-212] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:36:12.922 INFO [http-nio-9090-exec-212] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:36:25.122 INFO [http-nio-9090-exec-205] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:36:25.200 INFO [http-nio-9090-exec-205] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:36:38.593 INFO [http-nio-9090-exec-213] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:36:38.737 INFO [http-nio-9090-exec-213] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:36:47.421 INFO [http-nio-9090-exec-215] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:36:47.492 INFO [http-nio-9090-exec-215] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:37:00.148 INFO [http-nio-9090-exec-216] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:37:00.249 INFO [http-nio-9090-exec-216] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:37:15.730 INFO [http-nio-9090-exec-208] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:37:15.870 INFO [http-nio-9090-exec-208] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:37:41.047 INFO [http-nio-9090-exec-217] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:37:41.132 INFO [http-nio-9090-exec-217] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:50:34.853 INFO [http-nio-9090-exec-223] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:50:34.997 INFO [http-nio-9090-exec-223] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:53:18.623 INFO [http-nio-9090-exec-232] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:53:18.623 WARNING [http-nio-9090-exec-232] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodForLifeCommunity] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+29-Mar-2018 01:53:18.623 WARNING [http-nio-9090-exec-232] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BloodForLifeCommunity] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+29-Mar-2018 01:53:21.795 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:972)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Mar-2018 01:53:30.107 INFO [http-nio-9090-exec-232] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:53:38.583 INFO [http-nio-9090-exec-230] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:53:38.598 WARNING [http-nio-9090-exec-230] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodForLifeCommunity] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+29-Mar-2018 01:53:38.598 WARNING [http-nio-9090-exec-230] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BloodForLifeCommunity] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+29-Mar-2018 01:53:38.810 INFO [http-nio-9090-exec-230] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:53:40.197 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:972)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Mar-2018 01:53:45.279 INFO [http-nio-9090-exec-229] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:53:45.279 WARNING [http-nio-9090-exec-229] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodForLifeCommunity] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+29-Mar-2018 01:53:45.294 WARNING [http-nio-9090-exec-229] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BloodForLifeCommunity] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+29-Mar-2018 01:53:45.524 INFO [http-nio-9090-exec-229] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:53:48.904 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:972)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Mar-2018 01:53:57.387 INFO [http-nio-9090-exec-233] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:53:57.387 WARNING [http-nio-9090-exec-233] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodForLifeCommunity] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+29-Mar-2018 01:53:57.387 WARNING [http-nio-9090-exec-233] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BloodForLifeCommunity] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+29-Mar-2018 01:53:57.652 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:972)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Mar-2018 01:53:57.873 INFO [http-nio-9090-exec-233] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:53:59.649 INFO [http-nio-9090-exec-245] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:53:59.649 WARNING [http-nio-9090-exec-245] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodForLifeCommunity] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+29-Mar-2018 01:53:59.649 WARNING [http-nio-9090-exec-245] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BloodForLifeCommunity] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+29-Mar-2018 01:53:59.842 INFO [http-nio-9090-exec-245] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:54:02.967 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:972)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Mar-2018 01:55:12.638 INFO [http-nio-9090-exec-249] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:55:12.638 WARNING [http-nio-9090-exec-249] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodForLifeCommunity] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+29-Mar-2018 01:55:12.638 WARNING [http-nio-9090-exec-249] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BloodForLifeCommunity] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+29-Mar-2018 01:55:12.865 INFO [http-nio-9090-exec-249] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:55:15.091 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:972)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Mar-2018 01:55:32.810 INFO [http-nio-9090-exec-234] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:55:32.811 WARNING [http-nio-9090-exec-234] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodForLifeCommunity] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+29-Mar-2018 01:55:32.812 WARNING [http-nio-9090-exec-234] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BloodForLifeCommunity] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+29-Mar-2018 01:55:32.935 INFO [http-nio-9090-exec-234] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:55:32.966 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:972)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Mar-2018 01:57:13.560 INFO [http-nio-9090-exec-257] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:57:13.560 WARNING [http-nio-9090-exec-257] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodForLifeCommunity] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+29-Mar-2018 01:57:13.560 WARNING [http-nio-9090-exec-257] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BloodForLifeCommunity] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+29-Mar-2018 01:57:13.810 INFO [http-nio-9090-exec-257] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 01:57:14.608 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:972)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Mar-2018 01:59:07.560 INFO [http-nio-9090-exec-265] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 01:59:07.826 INFO [http-nio-9090-exec-265] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 02:01:55.311 INFO [http-nio-9090-exec-274] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 02:01:55.451 INFO [http-nio-9090-exec-274] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 02:02:14.421 INFO [http-nio-9090-exec-271] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 02:02:14.499 INFO [http-nio-9090-exec-271] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 02:02:22.592 INFO [http-nio-9090-exec-274] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 02:02:22.704 INFO [http-nio-9090-exec-274] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 02:02:31.826 INFO [http-nio-9090-exec-265] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 02:02:31.997 INFO [http-nio-9090-exec-265] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 02:04:03.593 INFO [http-nio-9090-exec-283] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 02:04:03.593 WARNING [http-nio-9090-exec-283] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodForLifeCommunity] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+29-Mar-2018 02:04:03.593 WARNING [http-nio-9090-exec-283] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BloodForLifeCommunity] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+29-Mar-2018 02:04:03.733 INFO [http-nio-9090-exec-283] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 02:04:06.294 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:972)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Mar-2018 02:05:15.451 INFO [http-nio-9090-exec-291] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 02:05:15.576 INFO [http-nio-9090-exec-291] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 02:08:01.987 INFO [http-nio-9090-exec-297] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] has started
+29-Mar-2018 02:08:02.127 INFO [http-nio-9090-exec-297] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BloodForLifeCommunity] is completed
+29-Mar-2018 02:13:03.633 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-Mar-2018 02:13:03.648 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+29-Mar-2018 02:13:03.805 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2018 02:13:03.961 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2018 02:13:04.023 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BloodForLifeCommunity] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+29-Mar-2018 02:13:04.023 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [BloodForLifeCommunity] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+29-Mar-2018 02:13:04.023 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+29-Mar-2018 02:13:04.055 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+29-Mar-2018 02:13:04.070 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+29-Mar-2018 02:13:04.070 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

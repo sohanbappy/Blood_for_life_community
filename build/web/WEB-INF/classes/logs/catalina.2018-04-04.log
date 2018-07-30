@@ -1,0 +1,63 @@
+04-Apr-2018 12:41:13.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.6
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 09:34:35 UTC
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.6.0
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\LICT18\apache-tomcat-9.0.6
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\LICT18\apache-tomcat-9.0.6
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\LICT18\apache-tomcat-9.0.6\conf\logging.properties
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-IVGRA1C
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\LICT18\apache-tomcat-9.0.6
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\LICT18\apache-tomcat-9.0.6
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\LICT18\apache-tomcat-9.0.6\temp
+04-Apr-2018 12:41:13.882 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Bappy's Pc\AppData\Local\Microsoft\WindowsApps;;.]
+04-Apr-2018 12:41:15.036 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+04-Apr-2018 12:41:15.614 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Apr-2018 12:41:15.692 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+04-Apr-2018 12:41:15.692 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Apr-2018 12:41:15.692 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4470 ms
+04-Apr-2018 12:41:15.895 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Apr-2018 12:41:15.895 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.6
+04-Apr-2018 12:41:16.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\BloodForLifeCommunity.xml]
+04-Apr-2018 12:41:16.114 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/BloodForLifeCommunity] in deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\BloodForLifeCommunity.xml] has been ignored
+04-Apr-2018 12:41:18.033 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Apr-2018 12:41:18.314 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\BloodForLifeCommunity.xml] has finished in [2,263] ms
+04-Apr-2018 12:41:18.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\EmpMng.xml]
+04-Apr-2018 12:41:18.346 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/EmpMng] in deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\EmpMng.xml] has been ignored
+04-Apr-2018 12:41:18.910 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Apr-2018 12:41:18.910 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\EmpMng.xml] has finished in [580] ms
+04-Apr-2018 12:41:18.910 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\LoginApp1.xml]
+04-Apr-2018 12:41:18.910 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/LoginApp1] in deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\LoginApp1.xml] has been ignored
+04-Apr-2018 12:41:19.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\LoginApp1.xml] has finished in [141] ms
+04-Apr-2018 12:41:19.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\WebApplication1.xml]
+04-Apr-2018 12:41:19.129 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+04-Apr-2018 12:41:19.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [G:\LICT18\apache-tomcat-9.0.6\conf\Catalina\localhost\WebApplication1.xml] has finished in [109] ms
+04-Apr-2018 12:41:19.207 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\docs]
+04-Apr-2018 12:41:19.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\docs] has finished in [47] ms
+04-Apr-2018 12:41:19.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\examples]
+04-Apr-2018 12:41:21.135 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\examples] has finished in [1,881] ms
+04-Apr-2018 12:41:21.151 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\host-manager]
+04-Apr-2018 12:41:21.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\host-manager] has finished in [180] ms
+04-Apr-2018 12:41:21.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\manager]
+04-Apr-2018 12:41:21.413 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\manager] has finished in [82] ms
+04-Apr-2018 12:41:21.413 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\ROOT]
+04-Apr-2018 12:41:21.585 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\LICT18\apache-tomcat-9.0.6\webapps\ROOT] has finished in [172] ms
+04-Apr-2018 12:41:21.585 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+04-Apr-2018 12:41:21.616 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+04-Apr-2018 12:41:21.616 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5920 ms
+04-Apr-2018 13:04:04.620 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+04-Apr-2018 13:04:04.624 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+04-Apr-2018 13:04:04.840 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+04-Apr-2018 13:04:05.024 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Apr-2018 13:04:05.152 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+04-Apr-2018 13:04:05.152 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+04-Apr-2018 13:04:05.156 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+04-Apr-2018 13:04:05.156 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

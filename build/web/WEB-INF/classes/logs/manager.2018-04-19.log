@@ -1,0 +1,561 @@
+19-Apr-2018 11:22:10.708 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+19-Apr-2018 11:22:10.708 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+19-Apr-2018 11:22:11.317 INFO [http-nio-9090-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:22:11.333 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:22:11.489 INFO [http-nio-9090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/BloodForLifeCommunity'
+19-Apr-2018 11:22:11.489 SEVERE [http-nio-9090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/BloodForLifeCommunity]
+ java.lang.IllegalStateException: Context with name [/BloodForLifeCommunity] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3636)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1094)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:364)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+19-Apr-2018 11:24:15.794 INFO [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:27:19.786 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:27:51.383 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:29:10.616 INFO [http-nio-9090-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:29:16.204 INFO [http-nio-9090-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:30:00.889 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:32:05.811 INFO [http-nio-9090-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:32:08.015 INFO [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:32:08.015 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:32:08.156 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/BloodForLifeCommunity'
+19-Apr-2018 11:32:08.156 SEVERE [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/BloodForLifeCommunity]
+ java.lang.IllegalStateException: Context with name [/BloodForLifeCommunity] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3636)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1094)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:364)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+19-Apr-2018 11:32:36.112 INFO [http-nio-9090-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:32:52.356 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:35:06.581 INFO [http-nio-9090-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:35:06.581 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:35:06.767 INFO [http-nio-9090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/BloodForLifeCommunity'
+19-Apr-2018 11:35:06.767 SEVERE [http-nio-9090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/BloodForLifeCommunity]
+ java.lang.IllegalStateException: Context with name [/BloodForLifeCommunity] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3636)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1094)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:364)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+19-Apr-2018 11:35:17.397 INFO [http-nio-9090-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:35:17.397 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:35:17.533 INFO [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/BloodForLifeCommunity'
+19-Apr-2018 11:35:17.533 SEVERE [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/BloodForLifeCommunity]
+ java.lang.IllegalStateException: Context with name [/BloodForLifeCommunity] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3636)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1094)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:364)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+19-Apr-2018 11:35:46.213 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:35:46.213 INFO [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:35:46.343 INFO [http-nio-9090-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/BloodForLifeCommunity'
+19-Apr-2018 11:35:46.344 SEVERE [http-nio-9090-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/BloodForLifeCommunity]
+ java.lang.IllegalStateException: Context with name [/BloodForLifeCommunity] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3636)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1094)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:364)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+19-Apr-2018 11:36:00.613 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+19-Apr-2018 11:36:00.613 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+19-Apr-2018 11:36:05.229 INFO [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:36:05.244 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:36:05.472 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/BloodForLifeCommunity'
+19-Apr-2018 11:36:05.472 SEVERE [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/BloodForLifeCommunity]
+ java.lang.IllegalStateException: Context with name [/BloodForLifeCommunity] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3636)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1094)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:364)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+19-Apr-2018 11:37:03.848 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+19-Apr-2018 11:37:03.848 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+19-Apr-2018 11:37:04.739 INFO [http-nio-9090-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:37:04.754 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:37:05.067 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/BloodForLifeCommunity'
+19-Apr-2018 11:37:05.067 SEVERE [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/BloodForLifeCommunity]
+ java.lang.IllegalStateException: Context with name [/BloodForLifeCommunity] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3636)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1094)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:364)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+19-Apr-2018 11:37:55.247 INFO [http-nio-9090-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:37:55.263 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:37:55.581 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/BloodForLifeCommunity'
+19-Apr-2018 11:37:55.581 SEVERE [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/BloodForLifeCommunity]
+ java.lang.IllegalStateException: Context with name [/BloodForLifeCommunity] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3636)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1094)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:364)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+19-Apr-2018 11:38:15.020 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:38:15.020 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:38:15.224 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/BloodForLifeCommunity'
+19-Apr-2018 11:38:15.224 SEVERE [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/BloodForLifeCommunity]
+ java.lang.IllegalStateException: Context with name [/BloodForLifeCommunity] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3636)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1094)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:364)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+19-Apr-2018 11:38:19.254 INFO [http-nio-9090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:38:19.254 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:38:19.441 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/BloodForLifeCommunity'
+19-Apr-2018 11:38:19.441 SEVERE [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/BloodForLifeCommunity]
+ java.lang.IllegalStateException: Context with name [/BloodForLifeCommunity] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3636)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1094)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:364)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+19-Apr-2018 11:38:43.021 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:38:43.037 INFO [http-nio-9090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:38:47.074 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/BloodForLifeCommunity'
+19-Apr-2018 11:38:47.121 SEVERE [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log FAIL - Application at context path [/BloodForLifeCommunity] could not be started
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/BloodForLifeCommunity]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1395)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:376)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: The servlets named [com.donation.DeleteServlet] and [com.feedback.DeleteServlet] are both mapped to the url-pattern [/bankDeleteServlet] which is not permitted
+	at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:329)
+	at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:322)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2418)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2095)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1981)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1975)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1975)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1146)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4939)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 28 more
+
+19-Apr-2018 11:39:51.939 INFO [http-nio-9090-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:39:51.939 INFO [http-nio-9090-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:39:52.126 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/BloodForLifeCommunity'
+19-Apr-2018 11:39:52.126 SEVERE [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/BloodForLifeCommunity]
+ java.lang.IllegalStateException: Context with name [/BloodForLifeCommunity] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3636)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1094)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:364)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+19-Apr-2018 11:42:52.342 INFO [http-nio-9090-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:42:52.342 INFO [http-nio-9090-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:47:57.130 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+19-Apr-2018 11:47:57.130 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+19-Apr-2018 11:47:57.573 INFO [http-nio-9090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:47:57.587 INFO [http-nio-9090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:47:57.786 INFO [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/BloodForLifeCommunity'
+19-Apr-2018 11:47:57.786 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/BloodForLifeCommunity'
+19-Apr-2018 11:47:57.833 SEVERE [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log FAIL - Application at context path [/BloodForLifeCommunity] could not be started
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/BloodForLifeCommunity]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1395)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:376)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: The servlets named [com.donation.DeleteServlet] and [com.feedback.DeleteServlet] are both mapped to the url-pattern [/bankDeleteServlet] which is not permitted
+	at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:329)
+	at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:322)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2418)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2095)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1981)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1975)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1975)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1146)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4939)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 28 more
+
+19-Apr-2018 11:49:17.597 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+19-Apr-2018 11:49:17.597 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+19-Apr-2018 11:49:18.098 INFO [http-nio-9090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:49:18.114 INFO [http-nio-9090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+19-Apr-2018 11:49:18.270 INFO [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/BloodForLifeCommunity'
+19-Apr-2018 11:49:18.286 INFO [http-nio-9090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/BloodForLifeCommunity'
+19-Apr-2018 11:49:18.317 SEVERE [http-nio-9090-exec-4] org.apache.catalina.core.ApplicationContext.log FAIL - Application at context path [/BloodForLifeCommunity] could not be started
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/BloodForLifeCommunity]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1395)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:376)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:137)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:407)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: The servlets named [com.donation.DeleteServlet] and [com.feedback.DeleteServlet] are both mapped to the url-pattern [/bankDeleteServlet] which is not permitted
+	at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:329)
+	at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:322)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2418)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2095)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1981)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1975)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1975)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1146)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:765)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4939)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 28 more
+

@@ -1,0 +1,72 @@
+21-Jul-2018 00:45:23.245 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Jul-2018 00:45:23.245 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Jul-2018 00:45:23.254 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@489115ef')
+21-Jul-2018 02:23:04.320 SEVERE [http-nio-8080-exec-170] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/BloodForLifeCommunity] threw exception [An exception occurred processing [/home.jsp] at line [44]
+
+41: 
+42: 
+43:     Class.forName("com.mysql.jdbc.Driver");
+44:     Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/bl_for_life","root","");
+45:     Statement st=con.createStatement();
+46:     ResultSet rs;
+47:     rs=st.executeQuery(sql);
+
+
+Stacktrace:] with root cause
+ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'bl_for_life'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:925)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1704)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1250)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2498)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2283)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:822)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:404)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:317)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.jsp.home_jsp._jspService(home_jsp.java:163)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:412)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1385)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
